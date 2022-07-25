@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://loksun.ai/wp-content/uploads/2020/05/FR1-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none ;
+    color: rgb(103, 236, 14);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#section1{
+    padding: 50px;
+    color: antiquewhite;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ .main{
+     max-width: 1200px;
+     margin: auto;
+ }
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.h-text{
+    color: #fff;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.demo{
+    max-width: 700px;
+    position: absolute;
+    top: 59%;
+    left:65%;
+    margin-top: 10px;
+}
+.demo a{
+    color: rgb(52, 238, 5);
+    font-size: 30px;
+}
+
+.icon i{
+    font-size: 30px;
+}
+.icon i:hover{
+    color:#e74c3c;;
+}
+
+.menu{
+    color: rgba(0, 0, 0, 0.555);
+    max-width: 700px;
+    position: absolute;
+    top: 600%;
+    left: 50%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+#section3{
+    
+    background-image:linear-gradient(rgba(119, 54, 54, 0.5),rgba(26, 85, 141, 0.5)), url(istockphoto-656453072-612x612.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#section3 h1 {
+
+    padding: 20px;
+}
+#section3 p{
+    padding: 20px;
+    text-align: right;
+    align-content: center;
+    font-size: 25px;
+}
+#section3 .abc{
+    padding: 20px;
+    text-align: right;
+    align-content: center;
+    font-size: 25px;
+}
+#section4{
+    
+    background-image:linear-gradient(rgba(168, 12, 182, 0.5),rgba(26, 85, 141, 0.5)), url(purple-watercolor-abstract-background_52683-73545.webp);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#section4 p{
+    padding: 20px;
+    text-align: right;
+    align-content: center;
+    font-size: 25px;
+}
+#section4 .abc{
+    padding: 20px;
+    text-align: right;
+    align-content: center;
+    font-size: 25px;
+}
+#section5{
+    
+    background-image:linear-gradient(rgba(168, 12, 182, 0.5),rgba(218, 8, 78, 0.5)), url(colorful-blurred-backgrounds-pink-background-260nw-375703615.webp);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#section5 h1{
+      text-align: center;
+
+}
+
+#section5 .chat{
+    text-align: center;
+}
